@@ -1,20 +1,30 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>My First Web Application</title>
-	</head>
-	<body bgcolor="yellow">
+  <head>
+    <title>Rock Resume</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
 		<form>
-		<h1 align="center">WELCOME TO JOSEPH SCHOOL<h1>
-		<h3>APPLICATION FORM</h3>
-		<label>Name</label>
-		<input type="text" name="Name"/><br>
-		<label>Class</label>
-		<input type="text" name="class"/><br>
-		<label>Address</label>
-		<input type="text" name="address"/><br>
-		<input type="button" value="submit"/>
+			<p align = "center">
+				Full Name<input name="name" type="text" placeholder="Enter your first name" /><br><br>
+				Secret Pin<input name="Secretpin" type="text" placeholder="Enter your secret pin" /><br><br>
+				Gender <Input type = 'Radio' Name ='Mgender' value= 'male'/>Male
+				<Input type = 'Radio' Name ='Fgender' value= 'female'/>Female <br><br>
+				I am an expert in <Input type = 'checkbox' Name ='HTML' value= 'male'/>HTML
+				<Input type = 'checkbox' Name ='gender' value= 'CSS'/>CSS <br><br>
+				My field of Study is 
+				<select name="branch">
+					<option>Select you branch using select drop down</option>
+					<option>CS</option>
+					<option>EC</option>
+					<option>EE</option>
+					<option>Civil</option>
+				</select><br><br>
+				<label>Tell me about your self</label>
+				<textarea rows="4" cols="50" placeholder="This is you textarea. Enter your description"></textarea><br>
+				<input type="button" value="submit form"/>
+			</p>
 		</form>
 	</body>
 </html>
-
-		
